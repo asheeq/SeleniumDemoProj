@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="4746" started-at="2022-08-21T21:09:30Z" finished-at="2022-08-21T21:09:34Z">
+    <groups>
+    </groups>
+    <test name="D:/Selenium/SeleniumDemoProj/src/main/java/MVNTest" duration-ms="4746" started-at="2022-08-21T21:09:30Z" finished-at="2022-08-21T21:09:34Z">
+      <class name="MVNTest.OneTest">
+        <test-method status="PASS" signature="oneTest()[pri:0, instance:MVNTest.OneTest@6500df86]" name="oneTest" duration-ms="4681" started-at="2022-08-22T03:09:30Z" finished-at="2022-08-22T03:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:MVNTest.OneTest@6500df86]" name="closeBrowser" is-config="true" duration-ms="57" started-at="2022-08-22T03:09:34Z" finished-at="2022-08-22T03:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- MVNTest.OneTest -->
+    </test> <!-- D:/Selenium/SeleniumDemoProj/src/main/java/MVNTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

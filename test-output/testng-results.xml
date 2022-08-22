@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="16170" started-at="2022-08-21T15:53:45Z" finished-at="2022-08-21T15:54:02Z">
+    <groups>
+    </groups>
+    <test name="SeleniumDemoProj" duration-ms="16170" started-at="2022-08-21T15:53:45Z" finished-at="2022-08-21T15:54:02Z">
+      <class name="Alerts">
+        <test-method status="PASS" signature="test()[pri:0, instance:Alerts@22f71333]" name="test" duration-ms="16159" started-at="2022-08-21T21:53:45Z" finished-at="2022-08-21T21:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Alerts -->
+    </test> <!-- SeleniumDemoProj -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!-- <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups> -->
+    <test thread-count="5" verbose="2" name="D:/Selenium/SeleniumDemoProj">
+        <packages>
+            <package name="SecondPackage"></package>
+        </packages>
+        <classes>
+            <class name="FirstPackage.TestNG1">
+                <methods>
+                    <!-- <include name="printMessage"/>
+                    <include name="testMethodA"/>
+                    <include name="sampleMethod"/>
+                    <include name="Method2"/> -->
+                    <exclude name="testMethod.*"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" name="D:/Selenium/SeleniumDemoProj2">
+        <classes>
+            <class name="FirstPackage.TestNG2">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testHomePage"/>
+                    <include name="testRegistration"/>
+                </methods>
+            </class>
+            <class name="SecondPackage.TestNGAnnot">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testHomePage"/>
+                    <include name="testRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+<!--Ctrl+Shift+Alt+L-->

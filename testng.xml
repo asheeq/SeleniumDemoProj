@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Selenium/SeleniumDemoProj/src/main/java/MVNTest">
+        <classes>
+            <class name="MVNTest.OneTest">
+                <methods>
+                    <include name="oneTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
